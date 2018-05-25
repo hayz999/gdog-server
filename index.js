@@ -9,7 +9,7 @@ const cors = require('cors');
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://galvanize-dogs.firebaseapp.com/',
   optionsSuccessStatus: 200
 }));
 
