@@ -2,7 +2,7 @@ const express = require('express');
 const port = parseInt(process.env.PORT || 5000);
 const knex = require('./connection')
 const bodyParser = require("body-parser");
-const wines = require('./routes/dogs')
+const dogs = require('./routes/dogs')
 const app = express();
 const cors = require('cors');
 
